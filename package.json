@@ -1,0 +1,19 @@
+{
+  "name": "backendtesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run:server": "json-server --watch db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.11.0",
+    "json-server": "^0.17.3",
+    "prettier": "^2.8.8"
+  }
+}
